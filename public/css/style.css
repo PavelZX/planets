@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+body { 
+    background-color: #2e3440 !important; 
+}
+
+h1 { 
+    font-family: 'Comforter Brush', cursive;
+    color: #d8dee9;
+    font-size: xx-large;
+    text-align: center;
+}
