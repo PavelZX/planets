@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 body { 
     background-color: #2e3440 !important; 
 }
@@ -7,6 +7,14 @@ body {
 h1 { 
     font-family: 'Comforter Brush', cursive;
     color: #d8dee9;
-    font-size: xx-large;
+    font-size: 70px !important;
     text-align: center;
+}
+canvas { 
+    width: 100% !important;
+} 
+
+h2 { 
+    color: #e5e9f0;
+    font-family: 'Permanent Marker', cursive;
 }
