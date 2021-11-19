@@ -12,7 +12,7 @@ class Planet {
             30,
             window.innerWidth/window.innerHeight
         );
-        let hlight = new THREE.AmbientLight (0x303030,60);
+        let hlight = new THREE.AmbientLight (0x303030,10);
 
         scene.add(hlight);
         var renderer = new THREE.WebGLRenderer({antialias:true});
@@ -56,3 +56,7 @@ let earth = new Planet();
 earth.putPlanet('earth', './earth')
 
 let mars = new Planet();
+mars.putPlanet('mars', './mars')
+
+let jupyter = new Planet();
+jupyter.putPlanet('jupyter', './jupyter')
