@@ -6,12 +6,13 @@ class Planet {
 
         var scene = new THREE.Scene()
         scene.background = new THREE.Color('#3b4252');
+        //scene.fog = new THREE.Fog(0x76456c, 0.1, 8)
 
         var camera = new THREE.PerspectiveCamera(
             30,
             window.innerWidth/window.innerHeight
         );
-        let hlight = new THREE.AmbientLight (0x404040,100);
+        let hlight = new THREE.AmbientLight (0x303030,60);
 
         scene.add(hlight);
         var renderer = new THREE.WebGLRenderer({antialias:true});
@@ -53,3 +54,5 @@ class Planet {
 
 let earth = new Planet();
 earth.putPlanet('earth', './earth')
+
+let mars = new Planet();
