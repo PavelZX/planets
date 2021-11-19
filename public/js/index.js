@@ -29,7 +29,7 @@ class Planet {
 
         
         let loader = new THREE.GLTFLoader();
-        loader.load('scene.gltf', function(gltf) { 
+        loader.load(`${pathPlanet}/scene.gltf`, function(gltf) { 
             scene.add(gltf.scene);
 
             renderer.render(scene,camera);
@@ -52,4 +52,4 @@ class Planet {
 }
 
 let earth = new Planet();
-earth.putPlanet('earth', './asda')
+earth.putPlanet('earth', './earth')
